@@ -1,6 +1,6 @@
 # Forest Structure Metrics from Segmented LiDAR
 
-This repository contains two R scripts to process airborne LiDAR tile data in which individual trees have been segmented and labeled by species. The first script computes a comprehensive set of forest structural metrics and exports them as multi‑layer GeoTIFF rasters at multiple pixel resolutions. The second script uses species‑labeled tree points to generate vertically stratified “species structure” layers, again as multi‑band GeoTIFFs.
+This repository contains two R scripts to process airborne LiDAR tile data in which individual trees have been segmented and labeled by species. Following the selection of variables with details in the [variable glossary](README_forest_strucutre_metrics.md) for all computed metrics. The first script computes a comprehensive set of forest structural metrics and exports them as multi‑layer GeoTIFF rasters at multiple pixel resolutions. The second script uses species‑labeled tree points to generate vertically stratified “species structure” layers, again as multi‑band GeoTIFFs.
 
 ## Input requirements
 

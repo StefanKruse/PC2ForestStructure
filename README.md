@@ -141,6 +141,14 @@ Rscript 02_species_structure.R
 
 Adjust the `output_path` and `target_dirs`/`input_path` to match your tree‑segmented LiDAR structure on your filesystem.
 
+## Example showcases
+
+### Species composition
+
+![Species composition by height for the plot EN23644 and only the 20x20 m² area](figures/02_1_visualization_species_stackedbar.png)
+
+*Figure. Species composition by height for the plot EN23644 and only the 20x20 m² area.*
+
 ## Notes
 
 - Tiles are assumed to represent exactly 20×20 m patches aligned on a common grid.

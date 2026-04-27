@@ -85,7 +85,7 @@ Leverage species‑labeled tree segments to build vertically stratified “speci
 - Each band is named `sliceX_low-highm`, where `X` is the slice index and `low–high` is the height interval.
 - Each band contains the unique species number with the follwoing mapping to species names
 
-*Table: Boreal tree species and abbreviations*
+*Table 1. Boreal tree species and abbreviations.*
 | ID | Scientific Name | Abbreviation |
 |---:|---|---|
 | 3 | *Picea mariana* Britton, Sterns & Poggenb. | PIMA |
@@ -143,11 +143,21 @@ Adjust the `output_path` and `target_dirs`/`input_path` to match your tree‑seg
 
 ## Example showcases
 
+### Forest structure
+
+<img src="figures/01_1_visualization_spatial_EN22006.png"
+     alt="Forest structure output sample for an area of 20x20 m² for the plot EN22006, an very open forest island"
+     width="600">
+
+*Figure 1. Forest structure output sample for an area of 20x20 m² for the plot EN22006, an open forest island (WGS 84 / UTM zone 8N (EPSG:32608)).*
+
 ### Species composition
 
-![Species composition by height for the plot EN23644 and only the 20x20 m² area](figures/02_1_visualization_species_stackedbar.png)
+<img src="figures/02_1_visualization_species_stackedbar.png" 
+     alt="Species composition by height for an 20x20 m² area at plot location EN23644, an very dense forest"
+     width="400">
 
-*Figure. Species composition by height for the plot EN23644 and only the 20x20 m² area.*
+*Figure 2. Species composition at each height section (1 m-steps) for an 20x20 m² area at plot location EN23644, a dense forest patch (WGS 84 / UTM zone 6N (EPSG:32606)).*
 
 ## Notes
 

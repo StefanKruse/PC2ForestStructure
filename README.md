@@ -83,6 +83,22 @@ Leverage species‑labeled tree segments to build vertically stratified “speci
 
 - `species_structure_*.tif` (one per input tile).
 - Each band is named `sliceX_low-highm`, where `X` is the slice index and `low–high` is the height interval.
+- Each band contains the unique species number with the follwoing mapping to species names
+
+*Table: Boreal tree species and abbreviations*
+| ID | Scientific Name | Abbreviation |
+|---:|---|---|
+| 3 | *Picea mariana* Britton, Sterns & Poggenb. | PIMA |
+| 4 | *Picea glauca* (Moench) Voss | PIGL |
+| 5 | *Pinus contorta* Douglas ex Loudon | PICO |
+| 6 | *Abies lasiocarpa* (Hook.) Nutt. | ABLA |
+| 7 | *Larix laricina* (Du Roi) K.Koch | LALA |
+| 8 | *Betula papyrifera* Marshall | BEPA |
+| 9 | *Populus balsamifera* L. | POBA |
+| 10 | *Populus tremuloides* Michx. | POTR |
+| 11 | *Picea sitchensis* (Bong.) Carrière | PISI |
+| 12 | *Betula neoalaskana* (Regel) Ashburner & McAll. | BENE |
+| 13 | *Alnus glutinosa* L. | ALGL |
 
 ### Configuration
 

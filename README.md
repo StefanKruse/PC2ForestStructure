@@ -30,6 +30,12 @@ Compute pixel‑wise and tile‑wise forest structural metrics from normalized L
 - **Tile‑level scalar metrics**
   - `prop_above_mean`: proportion of all tree returns above the overall mean tree height for the 20×20 m tile.
 
+<img src="figures/02_2_visualization_forest_structure_metrics.png" 
+     alt="Schematic of LiDAR‑derived vertical forest structure metrics"
+     width="1000">
+
+*Figure 1. Schematic of LiDAR‑derived vertical forest structure metrics. Layout drafted with assistance from the AI tool “Perplexity, powered by GPT‑5.1” and finalized by the authors.*
+
 ### Output files
 
 For each input tile, the script writes:
@@ -71,7 +77,7 @@ Leverage species‑labeled tree segments to build vertically stratified “speci
 1. **Terrain normalization**
    - Fitting a DTM at 0.5 m resolution and normalizing tree heights.
 2. **Tree polygonization**
-   - For each tree segment (`Tree` ID), the script computes a concave hull around its 2D projection (X, Y) and represents each tree as a polygon.
+   - For each tree segment (`Tree ID`), the script computes a concave hull around its 2D projection (X, Y) and represents each tree as a polygon.
 3. **Vertical slicing**
    - Tree points are partitioned into height slices (e.g., 0–1 m, 1–2 m, etc.).
 4. **Rasterization per slice**
@@ -149,7 +155,7 @@ Adjust the `output_path` and `target_dirs`/`input_path` to match your tree‑seg
      alt="Forest structure output sample for an area of 20x20 m² for the plot EN22006, an very open forest island"
      width="600">
 
-*Figure 1. Forest structure output sample for an area of 20x20 m² for the plot EN22006, an open forest island (WGS 84 / UTM zone 8N (EPSG:32608)).*
+*Figure 2. Forest structure output sample for an area of 20x20 m² for the plot EN22006, an open forest island (WGS 84 / UTM zone 8N (EPSG:32608)).*
 
 ### Species composition
 
@@ -157,7 +163,7 @@ Adjust the `output_path` and `target_dirs`/`input_path` to match your tree‑seg
      alt="Species composition by height for an 20x20 m² area at plot location EN23644, an very dense forest"
      width="400">
 
-*Figure 2. Species composition at each height section (1 m-steps) for an 20x20 m² area at plot location EN23644, a dense forest patch (WGS 84 / UTM zone 6N (EPSG:32606)).*
+*Figure 3. Species composition at each height section (1 m-steps) for an 20x20 m² area at plot location EN23644, a dense forest patch (WGS 84 / UTM zone 6N (EPSG:32606)).*
 
 ## Notes
 

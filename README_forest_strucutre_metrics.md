@@ -1,5 +1,12 @@
 ## Included Forest Strucutre Metrics Overview
 
+<img src="figures/02_2_visualization_forest_structure_metrics.png" 
+     alt="Schematic of LiDAR‑derived vertical forest structure metrics"
+     width="1000">
+
+*Figure 1. Schematic of LiDAR‑derived vertical forest structure metrics. Layout drafted with assistance from the AI tool “Perplexity, powered by GPT‑5.1” and finalized by the authors.*
+
+Table 1. Description of the included LiDAR-derived forest structure metrics.
 | Variable name | Human‑readable name | Meaning / use | Computed with function | Package |
 | --- | --- | --- | --- | --- |
 | `cv_height` | Height coefficient of variation | Measures the relative spread of return heights within a pixel; indicates local vertical heterogeneity and canopy structural complexity. | `sd(Z, na.rm = TRUE) / mean(Z, na.rm = TRUE)` inside `compute_forest_metrics()` | `lidR` (via `pixel_metrics()`) |
